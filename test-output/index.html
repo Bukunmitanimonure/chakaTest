@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.ChakaTest" class="method navigator-link" hash-for-method="selectCountry">selectCountry</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test.chakaTest" class="method navigator-link" hash-for-method="selectCountry">selectCountry</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,17 +116,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.ChakaTest" class="method navigator-link" hash-for-method="toExplorePage">toExplorePage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test.chakaTest" class="method navigator-link" hash-for-method="toExplorePage">toExplorePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.ChakaTest" class="method navigator-link" hash-for-method="toLandingPage">toLandingPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test.chakaTest" class="method navigator-link" hash-for-method="toLandingPage">toLandingPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.ChakaTest" class="method navigator-link" hash-for-method="userLogin">userLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test.chakaTest" class="method navigator-link" hash-for-method="userLogin">userLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -144,7 +144,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">test.ChakaTest</span>
+              <span class="class-name">test.chakaTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -171,8 +171,8 @@ Session ID: 89a03c84e0598c76f0027240db884564
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
-	at pages.ExplorePage.setExploreOption(ExplorePage.java:18)
-	at test.ChakaTest.selectCountry(ChakaTest.java:59)
+	at pages.explorePage.setExploreOption(ExplorePage.java:18)
+	at test.chakaTest.selectCountry(ChakaTest.java:59)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -206,7 +206,7 @@ Session ID: 89a03c84e0598c76f0027240db884564
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.ChakaTest</span>
+              <span class="class-name">test.chakaTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -244,7 +244,7 @@ Session ID: 89a03c84e0598c76f0027240db884564
 &lt;suite parallel=&quot;none&quot; name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.ChakaTest&quot;/&gt;
+      &lt;class name=&quot;test.chakaTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -287,19 +287,19 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'toExplorePage')
-data.setCell(0, 2, 'test.ChakaTest')
+data.setCell(0, 2, 'test.chakaTest')
 data.setCell(0, 3, 1725);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'userLogin')
-data.setCell(1, 2, 'test.ChakaTest')
+data.setCell(1, 2, 'test.chakaTest')
 data.setCell(1, 3, 377);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'toLandingPage')
-data.setCell(2, 2, 'test.ChakaTest')
+data.setCell(2, 2, 'test.chakaTest')
 data.setCell(2, 3, 127);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'selectCountry')
-data.setCell(3, 2, 'test.ChakaTest')
+data.setCell(3, 2, 'test.chakaTest')
 data.setCell(3, 3, 45);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
@@ -331,7 +331,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.ChakaTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.chakaTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>

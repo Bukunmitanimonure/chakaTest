@@ -3,17 +3,17 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="test.ChakaTest"/>
+      <class name="test.chakaTest"/>
     </classes>
   </test> <!-- Default test -->
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="test.ChakaTest">
+      <class name="test.chakaTest">
         <methods>
           <include name="selectCountry"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- test.ChakaTest -->
+      </class> <!-- test.chakaTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

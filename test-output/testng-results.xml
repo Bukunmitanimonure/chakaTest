@@ -6,24 +6,24 @@
     <groups>
     </groups>
     <test started-at="2021-01-24T18:05:07Z" name="Default test" finished-at="2021-01-24T18:05:29Z" duration-ms="22106">
-      <class name="test.ChakaTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.ChakaTest@1bab8268]" started-at="2021-01-24T19:05:07Z" name="setup" finished-at="2021-01-24T19:05:27Z" duration-ms="19806" status="PASS">
+      <class name="test.chakaTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.chakaTest@1bab8268]" started-at="2021-01-24T19:05:07Z" name="setup" finished-at="2021-01-24T19:05:27Z" duration-ms="19806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="toLandingPage()[pri:0, instance:test.ChakaTest@1bab8268]" started-at="2021-01-24T19:05:27Z" name="toLandingPage" finished-at="2021-01-24T19:05:27Z" duration-ms="127" status="PASS">
+        <test-method signature="toLandingPage()[pri:0, instance:test.chakaTest@1bab8268]" started-at="2021-01-24T19:05:27Z" name="toLandingPage" finished-at="2021-01-24T19:05:27Z" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toLandingPage -->
-        <test-method signature="userLogin()[pri:1, instance:test.ChakaTest@1bab8268]" started-at="2021-01-24T19:05:27Z" name="userLogin" finished-at="2021-01-24T19:05:28Z" duration-ms="377" status="PASS">
+        <test-method signature="userLogin()[pri:1, instance:test.chakaTest@1bab8268]" started-at="2021-01-24T19:05:27Z" name="userLogin" finished-at="2021-01-24T19:05:28Z" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method signature="toExplorePage()[pri:2, instance:test.ChakaTest@1bab8268]" started-at="2021-01-24T19:05:28Z" name="toExplorePage" finished-at="2021-01-24T19:05:29Z" duration-ms="1725" status="PASS">
+        <test-method signature="toExplorePage()[pri:2, instance:test.chakaTest@1bab8268]" started-at="2021-01-24T19:05:28Z" name="toExplorePage" finished-at="2021-01-24T19:05:29Z" duration-ms="1725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toExplorePage -->
-        <test-method signature="selectCountry()[pri:3, instance:test.ChakaTest@1bab8268]" started-at="2021-01-24T19:05:29Z" name="selectCountry" finished-at="2021-01-24T19:05:29Z" duration-ms="45" status="FAIL">
+        <test-method signature="selectCountry()[pri:3, instance:test.chakaTest@1bab8268]" started-at="2021-01-24T19:05:29Z" name="selectCountry" finished-at="2021-01-24T19:05:29Z" duration-ms="45" status="FAIL">
           <exception class="org.openqa.selenium.JavascriptException">
             <message>
               <![CDATA[javascript error: document.getElementsByTagName(...).setAttribute is not a function
@@ -54,8 +54,8 @@ Session ID: 89a03c84e0598c76f0027240db884564
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
-	at pages.ExplorePage.setExploreOption(ExplorePage.java:18)
-	at test.ChakaTest.selectCountry(ChakaTest.java:59)
+	at pages.explorePage.setExploreOption(ExplorePage.java:18)
+	at test.chakaTest.selectCountry(ChakaTest.java:59)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -86,7 +86,7 @@ Session ID: 89a03c84e0598c76f0027240db884564
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCountry -->
-      </class> <!-- test.ChakaTest -->
+      </class> <!-- test.chakaTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
